@@ -1,0 +1,91 @@
+{
+  "project": "parallel-numerics-bench",
+  "generated_utc": "2026-10-17T23:21:41+00:00",
+  "machine": {
+    "cpu": "12th Gen Intel Core i5-12500H (12 cores: 8P+4E, 16 logical processors)",
+    "machine": "AMD64",
+    "os": "Windows 11",
+    "hardware_concurrency": 16
+  },
+  "compiler": "GCC 16.2.0",
+  "build_type": "Release",
+  "clock": "std::chrono::steady_clock (monotonic)",
+  "methodology": {
+    "repeats_per_cell_kept": [
+      8
+    ],
+    "cold_run": "excluded (kept=0 rows remain in bench.csv)",
+    "measurement_order": "serial and parallel cells interleaved round by round",
+    "statistics": [
+      "median",
+      "min"
+    ],
+    "note": "mean deliberately not used as headline; scatter shown in scaling.png; threads=1 cells can measure faster than serial due to CPU frequency-state drift - not a parallel effect"
+  },
+  "verification": {
+    "bench_results_bit_stable_across_repeats": true,
+    "mc_pi_hits_bit_identical_all_cells": true,
+    "matmul_C_bit_identical_all_cells": true,
+    "matmul_checksum_max_rel_delta": 7.289281890126825e-15,
+    "parallel_rerun_bit_stable_all_cells": true
+  },
+  "medians_s": {
+    "matmul|n=96|parallel|threads=1": 0.0013163,
+    "matmul|n=96|parallel|threads=2": 0.0008077,
+    "matmul|n=96|parallel|threads=4": 0.00067695,
+    "matmul|n=96|parallel|threads=8": 0.0003914,
+    "matmul|n=96|parallel|threads=16": 0.00035785,
+    "matmul|n=384|parallel|threads=1": 0.1183068,
+    "matmul|n=384|parallel|threads=2": 0.0771262,
+    "matmul|n=384|parallel|threads=4": 0.038857,
+    "matmul|n=384|parallel|threads=8": 0.02875565,
+    "matmul|n=384|parallel|threads=16": 0.01903315,
+    "matmul|n=768|parallel|threads=1": 1.39259285,
+    "matmul|n=768|parallel|threads=2": 0.86633005,
+    "matmul|n=768|parallel|threads=4": 0.54837565,
+    "matmul|n=768|parallel|threads=8": 0.3183952,
+    "matmul|n=768|parallel|threads=16": 0.2371864,
+    "matmul|n=96|serial|threads=1": 0.0011209,
+    "matmul|n=384|serial|threads=1": 0.1324866,
+    "matmul|n=768|serial|threads=1": 1.5058089,
+    "mc_pi|n=100000|parallel|threads=1": 0.0021053,
+    "mc_pi|n=100000|parallel|threads=2": 0.00120505,
+    "mc_pi|n=100000|parallel|threads=4": 0.0007905,
+    "mc_pi|n=100000|parallel|threads=8": 0.0005221,
+    "mc_pi|n=100000|parallel|threads=16": 0.0003277,
+    "mc_pi|n=5000000|parallel|threads=1": 0.08924265,
+    "mc_pi|n=5000000|parallel|threads=2": 0.04663365,
+    "mc_pi|n=5000000|parallel|threads=4": 0.026354,
+    "mc_pi|n=5000000|parallel|threads=8": 0.01375265,
+    "mc_pi|n=5000000|parallel|threads=16": 0.0100245,
+    "mc_pi|n=100000|serial|threads=1": 0.0016631,
+    "mc_pi|n=5000000|serial|threads=1": 0.0938292
+  },
+  "speedup_vs_serial_median": {
+    "matmul|n=96|threads=1": 0.852,
+    "matmul|n=96|threads=2": 1.388,
+    "matmul|n=96|threads=4": 1.656,
+    "matmul|n=96|threads=8": 2.864,
+    "matmul|n=96|threads=16": 3.132,
+    "matmul|n=384|threads=1": 1.12,
+    "matmul|n=384|threads=2": 1.718,
+    "matmul|n=384|threads=4": 3.41,
+    "matmul|n=384|threads=8": 4.607,
+    "matmul|n=384|threads=16": 6.961,
+    "matmul|n=768|threads=1": 1.081,
+    "matmul|n=768|threads=2": 1.738,
+    "matmul|n=768|threads=4": 2.746,
+    "matmul|n=768|threads=8": 4.729,
+    "matmul|n=768|threads=16": 6.349,
+    "mc_pi|n=100000|threads=1": 0.79,
+    "mc_pi|n=100000|threads=2": 1.38,
+    "mc_pi|n=100000|threads=4": 2.104,
+    "mc_pi|n=100000|threads=8": 3.185,
+    "mc_pi|n=100000|threads=16": 5.075,
+    "mc_pi|n=5000000|threads=1": 1.051,
+    "mc_pi|n=5000000|threads=2": 2.012,
+    "mc_pi|n=5000000|threads=4": 3.56,
+    "mc_pi|n=5000000|threads=8": 6.823,
+    "mc_pi|n=5000000|threads=16": 9.36
+  }
+}

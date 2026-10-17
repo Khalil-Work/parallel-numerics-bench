@@ -1,0 +1,4 @@
+# Normalize text files to LF in the repository; check out native locally.
+* text=auto
+*.png binary
+*.gif binary

@@ -1,0 +1,15 @@
+# Build trees
+build/
+build-*/
+cmake-build-*/
+
+# Python (plotting side)
+__pycache__/
+*.py[cod]
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
