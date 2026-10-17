@@ -177,3 +177,8 @@ are not a FLOPS claim.
 ## License
 
 MIT - see [LICENSE](LICENSE). Copyright (c) 2026 MOHAMMED AHMED.
+
+
+---
+
+Calendar metadata: [reconstructed date records](docs/CALENDAR_HISTORY.md) were generated on 18 October 2026. Their historical author dates are synthetic; they do not date the software development. Original source commits and actual committer dates are preserved.
