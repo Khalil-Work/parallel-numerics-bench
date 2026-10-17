@@ -57,6 +57,12 @@ repeat. Headlines and honest non-headlines:
   interleaved cells on this laptop, not a parallel effect. Speedups should
   be read from threads >= 2. (Methodology note in `docs/model.md`.)
 
+* **Cross-process determinism** (`docs/results/cross-process/`): two
+  separate `pnb_bench --mode equivalence` processes produced
+  byte-identical CSVs (SHA-256
+  `083d480876e53c2402610f823d20ca4b63cb8482ef6d5bf03fef157ddd2251b2` for
+  both), also byte-identical to the original session's file.
+
 ## Limits of these results
 
 * **Shared memory only.** One process, one socket, one OS thread pool. No

@@ -1,0 +1,7 @@
+compiler=GCC 16.2.0
+build_type=Release
+cpp_standard=C++17 (command-line standard library only)
+hardware_concurrency=16
+clock=std::chrono::steady_clock (monotonic)
+compile_date=Oct 18 2026 07:18:34
+pi_reference=3.14159265358979323846
