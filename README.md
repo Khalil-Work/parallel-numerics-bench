@@ -192,7 +192,7 @@ documented non-associativity, plotted in
 
 ## 🔑 License
 
-MIT — see [LICENSE](LICENSE). Copyright (c) 2026 MOHAMMED AHMED.
+MIT — see [LICENSE](LICENSE). Copyright (c) 2026 KHALIL.
 
 ## 📚 References (by title)
 
