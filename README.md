@@ -10,12 +10,12 @@
 honest multi-repeat timings — answers that do not drift when you add threads, and
 speedup tables that keep the bad cells.**
 
-[![CI](https://github.com/khalil-official/parallel-numerics-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-official/parallel-numerics-bench/actions/workflows/ci.yml)
+[![CI](https://github.com/khalil-work/parallel-numerics-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-work/parallel-numerics-bench/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-1f4e79.svg)](LICENSE)
 [![language](https://img.shields.io/badge/language-C%2B%2B17-blue.svg)](src)
 [![tests](https://img.shields.io/badge/tests-9%2F9%20suites-brightgreen.svg)](tests)
 [![speedup](https://img.shields.io/badge/measured%20speedup-9.36x-orange.svg)](docs/results/speedup_table.md)
-[![repo stars](https://img.shields.io/github/stars/khalil-official/parallel-numerics-bench?style=flat&color=yellow)](https://github.com/khalil-official/parallel-numerics-bench/stargazers)
+[![repo stars](https://img.shields.io/github/stars/khalil-work/parallel-numerics-bench?style=flat&color=yellow)](https://github.com/khalil-work/parallel-numerics-bench/stargazers)
 
 [Quick start](#-quick-start) · [Determinism contract](#-determinism-contract) · [Animation](#%EF%B8%8F-results-gallery) · [Measured results](#-measured-results-this-machine-this-run) · [References](#-references-by-title)
 
@@ -192,7 +192,7 @@ documented non-associativity, plotted in
 
 ## 🔑 License
 
-MIT — see [LICENSE](LICENSE). Copyright (c) 2026 MOHAMMED AHMED.
+MIT — see [LICENSE](LICENSE). Copyright (c) 2026 KHALIL.
 
 ## 📚 References (by title)
 
