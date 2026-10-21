@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" alt="Parallel Numerics Bench banner: split diagonal serial-to-parallel fan producing bit-identical results" width="100%">
+<img src="docs/banner.png" alt="Parallel Numerics Bench banner: split diagonal serial-to-parallel fan producing bit-identical results" width="100%">
 
 # ⚙️ Parallel Numerics Bench
 
