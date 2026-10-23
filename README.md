@@ -17,7 +17,7 @@ speedup tables that keep the bad cells.**
 [![speedup](https://img.shields.io/badge/measured%20speedup-9.36x-orange.svg)](docs/results/speedup_table.md)
 [![repo stars](https://img.shields.io/github/stars/khalil-work/parallel-numerics-bench?style=flat&color=yellow)](https://github.com/khalil-work/parallel-numerics-bench/stargazers)
 
-[Quick start](#-quick-start) · [Determinism contract](#-determinism-contract) · [Animation](#%EF%B8%8F-results-gallery) · [Measured results](#-measured-results-this-machine-this-run) · [References](#-references-by-title)
+[Homepage](https://khalil-work.github.io) · [Quick start](#-quick-start) · [Determinism contract](#-determinism-contract) · [Animation](#%EF%B8%8F-results-gallery) · [Measured results](#-measured-results-this-machine-this-run) · [References](#-references-by-title)
 
 </div>
 
